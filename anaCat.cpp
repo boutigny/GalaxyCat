@@ -19,7 +19,7 @@ int main(int argc, char* argv[]) {
 //
     TApplication* rootapp = new TApplication("Example",&argc,argv);
 
-    TFile *f = new TFile("RW_truth_190.root");
+    TFile *f = new TFile("../Catalogs/RW_truth_190.root");
     TTree *tree = (TTree*)f->Get("Risa");
     Risa *r = new Risa(tree);
 
