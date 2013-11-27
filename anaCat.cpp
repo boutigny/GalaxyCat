@@ -9,7 +9,7 @@
 #include "TApplication.h"
 #include "TTree.h"
 
-#include "Risa.h"
+#include "RisaCat.h"
 
 using namespace std;
 
